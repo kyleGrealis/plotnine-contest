@@ -14,5 +14,5 @@ if (!dir.exists(paste0(here::here(), "/data"))) {
 }
 
 # load & save data
-driver_data <- nascaR.data::cup_driver_career
-readr::write_csv(driver_data, 'data/driver_data.csv')
+cup_race_data <- nascaR.data::cup_race_data
+readr::write_csv(cup_race_data, 'data/cup_race_data.csv')
